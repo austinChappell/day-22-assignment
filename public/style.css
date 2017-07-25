@@ -22,6 +22,10 @@ body {
   color: black;
 }
 
+.user:hover {
+  background: #eeeeee;
+}
+
 .user h2, .user p {
   text-align: left;
 }
