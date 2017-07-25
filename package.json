@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/austinChappell/day-22-assignment/issues"
   },
-  "homepage": "https://github.com/austinChappell/day-22-assignment#readme"
+  "homepage": "https://github.com/austinChappell/day-22-assignment#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "mustache-express": "^1.2.5"
+  }
 }
