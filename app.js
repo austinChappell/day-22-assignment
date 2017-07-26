@@ -39,12 +39,10 @@ app.get('/', function(req, res) {
 
 app.get('/:id', function(req, res) {
   let id = req.params.id;
-  data.users.forEach(function(user) {
-    if(user.id == id) {
-      console.log(user.name);
-      res.render('user', user);
-    };
+  let user = data.users.find(function(item) {
+    return item.id == id;
   });
+  res.render('user', user);
 });
 
 app.listen(3000, function() {
